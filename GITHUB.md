@@ -74,4 +74,28 @@ $ git push origin master
 
 
 
-### pull 안받고 
+### pull 안받고  수정 할 경우:
+
+서로 다른 폴더에서 될 경우 같은 줄에 다른 정보가 입력되어 있으면 임의 형식으로 합치고 수정해라고 뜸. 수정하고 뜸. 안겹치면 합쳐도 되냐고 물어보고 합쳐서 만듦.
+
+### 레퍼지토리
+
+* 저장할 수 있는 저장공간.
+
+
+
+origin: 원격 저장소 주소의 별명(딴 별명으로 가능), 뒤에 주소: 위치
+
+```
+git remote add origin https://github.com/jehaak/word.git
+```
+
+여러위치 저장 가능
+
+git remote remove origin으로 제거 가능
+
+$ git push -u origin master : 최초 푸쉬할 때 사용, 이후 origin master 안붙여도 git push만으로 push 가능하게 함
+
+## branch
+
+나뭇가지라는 의미로 여러 작업들을 하면서 분화되는 버전같은 느낌
