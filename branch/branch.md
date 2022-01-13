@@ -38,4 +38,4 @@ $ git swich -c{다른 브랜치 이름}
 
 * 주의사항
 
-​	git switch 하기 전에 commit 해야됨!!!
+​	git switch 하기 전에 commit 해야됨!!
