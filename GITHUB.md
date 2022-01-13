@@ -10,6 +10,6 @@
 
 ### Repository 생성
 
-* git remote
-* git push
+* git remote: $ git remote add origin https://github.com/jehaak/TIL.git
+* git push: $ push -u origin master
 
