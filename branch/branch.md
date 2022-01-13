@@ -31,7 +31,7 @@ $git branch -D {branch name}
 $ git switch {다른 브랜치를 가리키는 포인터}
 
 # 브랜치를 생성하고 동시에 이동
-$ git swich -c{다른 브랜치 이름}
+$ git switch -c{다른 브랜치 이름}
 ```
 
 
@@ -39,3 +39,18 @@ $ git swich -c{다른 브랜치 이름}
 * 주의사항
 
 ​	git switch 하기 전에 commit 해야됨!!
+
+
+
+a생성, 작업 후 master로 돌아가면 a에서 작업한 내용이 없어진다.
+
+
+
+## merge
+
+```bash
+# dev로 작업 끝난 후 병합
+$ git merge dev
+이후엔 dev 지워도 됨
+```
+
