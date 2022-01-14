@@ -99,3 +99,26 @@ $ git push -u origin master : 최초 푸쉬할 때 사용, 이후 origin master 
 ## branch
 
 나뭇가지라는 의미로 여러 작업들을 하면서 분화되는 버전같은 느낌
+
+---
+
+
+
+### git init
+
+* 새로운 저장소 .git폴더가 생성되며, 프로젝트 파일들을 관리할 수 있다.
+* git의 레포지토리는 크게 
+
+​		작업폴더(working place) > 인덱스(Staging Area) > 저장소(Head - Repository) 로 구성되어 있슴.
+
+​		우리가 작업하는 폴더를 작업트리라 부른다.
+
+### git add
+
+* 작업트리와 저장소 사이에 있는 가상의 준비영역 인덱스에 내용을 기록한다.
+* add에 추가된 파일을 제거하려면 git rm --cashed를 사용.
+
+### git commit
+
+* 스테이지에 있는 내용들을 저장소에 기록한다.
+* add 후 커밋 해야하며 git commit -a 명령어로 add 생략후 커밋 할 수 있다.
